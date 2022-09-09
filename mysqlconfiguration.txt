@@ -1,0 +1,16 @@
+In command propt:
+-----------------
+
+mysqld --console --initialize --basedir="D:\Program Files\MySQL" --datadir="D:\Program Files\mysqldata" (on execution:A temporary password is generated for root@localhost: yhokkEG)v1yp)
+
+mysqld --console --datadir="D:\Program Files\mysqldata" (on execution:MySQL will be started)
+
+Now open new command prompt
+
+mysql -u root -p (on execution:Enter temporary password)
+
+alter user 'root'@'localhost' identified by '7799443721'; (on execution:Changing temporary password to 7799443721)
+
+To exit from MySql type exit;
+
+To shutdown the MySQL server type mysqladmin -u root -p shutdown
